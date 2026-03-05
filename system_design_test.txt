@@ -1,0 +1,27 @@
+SYSTEM DESIGN ASSESSMENT Position: Software Engineer (Backend / Fullstack) 
+Duration: 2 days 
+Deliverables: Technical Documentation & Architecture Diagrams 
+1. MISSION OVERVIEW 
+Design a core ride-hailing system (eg: Uber, Grab) focusing on the end-to-end lifecycle  of a ride request and driver matching. 
+2. SYSTEM REQUIREMENTS 
+Functional Requirements 
+• Users: drivers and riders 
+• Riders can request for trips 
+• The system will match a rider with a driver 
+• After being matched, the rider and driver can see each other location util the trip  finished 
+Non-functional Requirements 
+• High availability 
+• Scale globally 
+• Efficient rider-driver matching 
+3. SCOPE OF WORK 
+Your proposal must address the following components: 
+• Rough Estimation: Provide back-of-the-envelope calculations for throughput  (QPS) and storage 
+o Assumptions: 10 million daily active riders and 1 million daily active  drivers. 
+• Data Model Design: Propose a simplified database model. 
+• API Design: Define 3-5 core API endpoints. The API format is up to you. • Detailed Design: Provide a high-level backend architecture diagram with descriptions. 
+• Bottlenecks: Identify potential failure points and suggest mitigation or  optimization strategies.
+4. REVIEW SESSION INSTRUCTIONS During the technical interview, be prepared to: 
+• Whiteboard interview 
+• Justify Design Choices 
+• Analyze Trade-offs 
+• Deep dive and discuss further.
