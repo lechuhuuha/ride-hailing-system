@@ -79,6 +79,8 @@ Redis hot data estimate:
 
 ### 1) System architecture diagram (required artifact)
 
+Note: GitHub's inline Mermaid viewport can clip large diagrams. Please open the diagram in full-screen/wide view (or use the SVG below) for readable labels and edges.
+
 ```mermaid
 flowchart LR
   Rider[Rider App]
@@ -175,6 +177,8 @@ flowchart LR
   SYNC -. warm standby copy .-> B_PG
   SYNC -. warm standby copy .-> C_PG
 ```
+
+![System architecture diagram (SVG)](architecture-diagram.svg)
 
 Diagram note: active-active routing is geography-based (nearest healthy region serves the request), and async cross-region sync keeps warm standby copies for regional failover.
 
